@@ -11,7 +11,7 @@ def thread_id_of_window(window_handle: int,
     """
     `window_handle` is a handle to the window.
 
-    `process_identifier` is A pointer to a variable that receives the process identifier.
+    `process_identifier` is a pointer to a variable that receives the process identifier.
 
     More information on: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getwindowthreadprocessid
     """
